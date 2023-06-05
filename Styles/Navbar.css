@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  height: 70px; /* Set the desired height for the navbar */
+  
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.links a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+
+.icon {
+  font-size: 24px;
+  margin: 0 15px;
+  color: #3f51b5;
+}
+
+.logo img {
+  margin-left: 10px;
+  width: 75px;
+  height: auto;
+}

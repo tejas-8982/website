@@ -1,0 +1,45 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contactus, .links {
+    margin-bottom: 20px;
+  }
+  
+  .links h4, .contactus h4 {
+    margin-bottom: 10px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px; /* Add margin-top for spacing below the contact and useful links sections */
+  }
+  
+  .logos .MuiSvgIcon-root {
+    font-size: 24px;
+  }
+  
+  .contactus svg, .links svg {
+    vertical-align: middle; /* Align the icons with the text */
+    margin-right: 5px; /* Add margin-right for spacing between the icon and text */
+  }
+  
+  .ojaswa {
+    margin-top: 20px; /* Add margin-top for spacing below the contact and useful links sections */
+  }
+  
+  .ojaswa p {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .heart {
+    color: red;
+  }
+  
